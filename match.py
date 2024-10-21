@@ -70,5 +70,7 @@ def match(pattern: List[str], source: List[str]) -> List[str]:
         else:
             # neither has ended and the words do not match, no match
             return None
-
+    
     return result
+
+    
